@@ -1,0 +1,25 @@
+{
+  "name": "carhere",
+  "version": "1.0.0",
+  "description": "CarHere - All Car Services at One Place",
+  "private": true,
+  "scripts": {
+    "frontend:install": "cd frontend && npm install",
+    "backend:install": "cd backend && npm install",
+    "install:all": "npm run frontend:install && npm run backend:install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:build": "cd backend && npm run build",
+    "build:all": "npm run frontend:build && npm run backend:build"
+  },
+  "keywords": [
+    "car",
+    "services",
+    "next.js",
+    "express",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT"
+}
