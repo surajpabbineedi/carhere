@@ -1,0 +1,15 @@
+.header {
+  @apply bg-white shadow-md;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 py-6 flex items-center justify-between;
+}
+
+.logo {
+  @apply text-2xl font-bold text-blue-600;
+}
+
+.subtitle {
+  @apply text-gray-600 text-sm;
+}

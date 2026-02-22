@@ -1,0 +1,27 @@
+.button {
+  @apply font-semibold rounded-lg transition-colors duration-200 cursor-pointer;
+}
+
+.primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed;
+}
+
+.secondary {
+  @apply bg-gray-300 text-gray-800 hover:bg-gray-400 disabled:bg-gray-200 disabled:cursor-not-allowed;
+}
+
+.danger {
+  @apply bg-red-600 text-white hover:bg-red-700 disabled:bg-gray-400 disabled:cursor-not-allowed;
+}
+
+.sm {
+  @apply px-3 py-2 text-sm;
+}
+
+.md {
+  @apply px-4 py-2 text-base;
+}
+
+.lg {
+  @apply px-6 py-3 text-lg;
+}
